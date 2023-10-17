@@ -1,0 +1,23 @@
+.about {
+  padding: 10rem 0;
+  grid-template-columns: 1fr 1fr;
+}
+
+.paragraph {
+  font-family: futuraLight;
+  max-width: 30rem;
+  color: #ccc;
+}
+
+.info {
+  max-width: 70rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.5rem;
+  padding: 0 0.625rem 0 5rem;
+  justify-content: flex-end;
+}
+
+.about::before {
+  background: url("../Assets/img/profile.jpg");
+}

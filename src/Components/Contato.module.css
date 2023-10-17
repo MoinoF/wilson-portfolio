@@ -1,0 +1,73 @@
+:root {
+  --blue-contato: #1997f5;
+}
+
+.contato {
+  padding-bottom: 10rem;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title {
+  justify-self: center;
+  margin-bottom: 5rem;
+}
+
+.info {
+  display: grid;
+  align-items: center;
+}
+
+.icons {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  max-width: 100%;
+  padding: 6rem 0 3rem 0.625rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+.icons a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: "futuraLight";
+  margin-top: 2.5rem;
+}
+
+.icons li {
+  width: 20px;
+  margin: 0 auto;
+}
+
+.msg {
+  padding: 4rem;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile .icons {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  /* justify-content: center; */
+  background: none;
+  padding: 0;
+}
+
+.mobile .icons ul li {
+  margin: 0;
+}
+
+.mobile .mgs {
+  padding: 0;
+}

@@ -1,0 +1,67 @@
+/* Global */
+@font-face {
+  font-family: futuraBlack;
+  src: url(".//Assets/fonts/futura/Futura\ Extra\ Black\ font.ttf");
+}
+
+@font-face {
+  font-family: futuraLight;
+  src: url("../src/Assets/fonts/futura/futura\ light\ bt.ttf");
+}
+
+:root {
+  --background: #000;
+}
+
+body {
+  background: var(--background);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "futuraLight";
+}
+
+ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.animeLeft {
+  transform: translateX(-5rem);
+  opacity: 0;
+  animation: animeLeft 0.3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.animeHeader {
+  transform: translateX(-5rem);
+  opacity: 0;
+  animation: animeHeader 1s forwards;
+}
+
+@keyframes animeHeader {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}

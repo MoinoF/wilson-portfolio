@@ -1,0 +1,20 @@
+:root {
+  --blue-input: #1997F5;
+}
+
+.input {
+  display: block;
+  border-radius: 3rem;
+  background: none;
+  border: var(--blue-input) 2px solid;
+  padding: 1rem;
+  color: var(--blue-input) ;
+  width: 100%;
+  font-size: 1.125rem;
+  font-family: 'futuraLight';
+  margin-top: 2rem;
+}
+
+.input::placeholder {
+  color: var(--blue-input) ;
+}

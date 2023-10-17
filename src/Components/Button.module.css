@@ -1,0 +1,23 @@
+:root {
+  --backgroundBtn: #1997F5;
+}
+
+.button {
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-family: 'futuraBlack';
+  font-size: 1.625rem;
+  text-transform: uppercase;
+  background: var(--backgroundBtn);
+  color: #A7D0E0;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 100%;transition: .3s;
+}
+
+.button:hover {
+  background: #A7D0E0;
+  color: #1A9FB3;
+}

@@ -1,0 +1,59 @@
+.portfolio {
+  padding: 0 0 10rem 0;
+}
+
+.title {
+  display: grid;
+  max-width: 70rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.photos {
+  display: grid;
+  grid-template:
+    ". img_1 img_1 . . ."
+    ". img_1 img_1 img_2 img_2 ."
+    "img_3 img_3 . img_2 img_2 ."
+    "img_3 img_3 . . img_4 img_4"
+    ". img_5 img_5 . img_4 img_4"
+    ". img_5 img_5 img_6 img_6 ."
+    ". . .  img_6 img_6 ."
+    / 3rem 1fr 3rem 3rem 1fr 3rem;
+  padding: 5rem 0;
+  row-gap: 4rem;
+  column-gap: 4rem;
+}
+
+.img_1 {
+  grid-area: img_1;
+}
+
+.img_2 {
+  grid-area: img_2;
+}
+
+.img_3 {
+  grid-area: img_3;
+}
+
+.img_4 {
+  grid-area: img_4;
+}
+
+.img_5 {
+  grid-area: img_5;
+}
+.img_6 {
+  grid-area: img_6;
+}
+
+.mobile {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}

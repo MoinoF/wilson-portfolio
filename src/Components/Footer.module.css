@@ -1,0 +1,11 @@
+:root {
+  --footer: #1a1a1a;
+}
+
+.footer {
+  background: var(--footer);
+  padding: 5rem .625rem;
+  text-align: center;
+  color: #aaa;
+  font-family: 'futuraLight';
+}

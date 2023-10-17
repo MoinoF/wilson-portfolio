@@ -1,0 +1,6 @@
+blue Light: #1A9FB3;
+blue button: #0C5C76;
+blue name: #0C5C76;
+about: #E6E6E6;
+galery: #1A1A1A;
+ret title: #BD0000;

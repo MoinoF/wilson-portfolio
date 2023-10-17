@@ -1,0 +1,22 @@
+:root {
+  --blue-textarea: #1997F5;
+}
+
+.textarea {
+  display: block;
+  border-radius: 3rem;
+  background: none;
+  border: var(--blue-textarea) 2px solid;
+  padding: 1rem;
+  padding-top: 2rem;
+  color: var(--blue-textarea) ;
+  width: 100%;
+  font-size: 1.125rem;
+  font-family: 'futuraLight';
+  margin-top: 2rem;
+  
+}
+
+.textarea::placeholder {
+  color: var(--blue-textarea) ;
+}
